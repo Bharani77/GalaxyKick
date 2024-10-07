@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "esm": "^3.2.25",
+    "kill-port": "^2.0.1",
+    "node-fetch": "^3.3.2",
+    "playwright": "^1.47.2",
+    "pm2": "^5.4.2",
+    "pupeteer": "^0.0.1",
+    "puppeteer": "^23.5.0",
+    "screenfull": "^6.0.2",
+    "selenium-webdriver": "^4.23.0",
+    "socket.io": "^4.7.5",
+    "ws": "^8.18.0"
+  }
+}
