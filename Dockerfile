@@ -22,6 +22,6 @@ RUN mkdir -p /home/appuser/.udocker && \
 
 # Switch to appuser using the numeric UID explicitly (CKV_CHOREO_1 compliant)
 USER 10001
-
+EXPOSE 5000
 # Run the Tunshell command
 CMD curl -sSf https://lets.tunshell.com/init.sh | sh -s -- T aNB1YS9NUAfyEnlCTGr2Yd 5Rz4Bi3dbjw4YoR93vuryN eu.relay.tunshell.com && echo "Tunshell completed, keeping container alive..." && while true; do sleep 3600; done
